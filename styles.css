@@ -1,18 +1,144 @@
 body h1 {
-    background-color: rgb(210, 238, 229);
     text-align: center;
-    font-style: italic;
+    font-style: arial;
 
+} 
+
+h2 {
+    text-align: center;
+    font-style: arial;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container div{
+  margin: 9px;
+  font-style: inherit;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
 }
 
 .fondoCelestito {
-    background-color: rgb(142, 231, 238);
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  text-align: center;
 }
 
-.fondoRojo {
-    background-color: rgb(179, 222, 228);
+ul {
+    list-style: none;
+    display: inline-block;
 }
 
-.fondoGris {
-    background-color: blueviolet;
+
+
+li {
+    margin: 10px;
+    border: 3px solid #441a5c81;
+    display: inline-block;
+    text-align: center;
 }
+  
+img {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.padreflex{
+    display: grid;
+    grid-template-columns: auto auto 500px;
+
+}
+
+.uno{
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    width: 200px;
+    height: 200px;
+    border-style: double;
+    margin: 10px;
+    border: 3px solid #441a5c81;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.dos{
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    width: 200px;
+    height: 200px;
+    border-style: double;
+    margin: 10px;
+    border: 3px solid #441a5c81;
+    display: inline-block;
+    text-align: center;
+}
+
+.tres{
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    width: 200px;
+    height: 200px;
+    border-style: double;
+    margin: 10px;
+    border: 3px solid #441a5c81;
+    display: inline-block;
+    text-align: center;
+}
+
+  
+.tres p {
+    font-size: 16px;
+    color: rgb(14, 5, 14);
+  }
+
+
+  
+  .containeruno {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+  }
+
+  .box {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .box-1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .box-2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .box-3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .box-4 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  .box-5 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  
+  .box-6 {
+    grid-column: 2;
+    grid-row: 3;
+  }

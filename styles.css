@@ -1,0 +1,18 @@
+body h1 {
+    background-color: rgb(210, 238, 229);
+    text-align: center;
+    font-style: italic;
+
+}
+
+.fondoCelestito {
+    background-color: rgb(142, 231, 238);
+}
+
+.fondoRojo {
+    background-color: rgb(179, 222, 228);
+}
+
+.fondoGris {
+    background-color: blueviolet;
+}
